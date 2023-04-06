@@ -25,6 +25,10 @@ class CartItem extends React.Component {
                     <div style={{ color: '#444' }}> Qty: {qty}</div>
                     <div className='cart-item-actions'>
                         {/* {Buttons} */}
+                        <img className='action-icons' alt="decrease" src="https://cdn-icons-png.flaticon.com/512/1665/1665663.png" />
+                        <img className='action-icons' alt="increase" src="https://cdn-icons-png.flaticon.com/512/1665/1665629.png" />
+                        <img className='action-icons' alt="delete" src="https://cdn-icons-png.flaticon.com/512/484/484611.png" />
+
                     </div>
                 </div>
 
@@ -35,8 +39,8 @@ class CartItem extends React.Component {
 
 const styles = {
     image: {
-        height: 110,
-        width: 110,
+        height: 120,
+        width: 120,
         borderRadius: 14,
         background: '#777'
     }
