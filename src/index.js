@@ -7,6 +7,7 @@ import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
   //secrets
+  //is it ignored -- test 
 };
 
 // Initialize Firebase
