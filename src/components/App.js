@@ -1,10 +1,10 @@
 import React from "react";
 import Cart from "./Cart";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 import { collection, onSnapshot, addDoc, doc, updateDoc, deleteDoc } from "firebase/firestore";
-import { db } from './index';
+import { db } from '../config/firebase';
 import Loader from "./Loader";
-import './button.css';
+import '../assets/button.css';
 
 class App extends React.Component {
   constructor() {
